@@ -8,4 +8,6 @@ Create a personal blog website using React components similar to the below image
 
 The Post component will represent one post only, and more posts could be added using the same component.
 
+Hint: use props to be able to change the content of the posts. 
+
 ![image](React_App.png)
