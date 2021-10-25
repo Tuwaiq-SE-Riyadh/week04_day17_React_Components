@@ -11,3 +11,7 @@ The Post component will represent one post only, and more posts could be added u
 Hint: use props to be able to change the content of the posts. 
 
 ![image](React_App.png)
+
+# My Result Screenshoot
+
+![image](result-screenshot.png)
