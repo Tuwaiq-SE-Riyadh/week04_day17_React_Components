@@ -1,0 +1,35 @@
+#d1{
+  background-image: url(1.jpg);
+  height: 100px;
+  padding: 100px;
+}
+
+#f0{
+  padding: 50px;
+  background-color: #c4c4c4 ;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#B1{
+  background-color: aquamarine;
+}
+#post{
+  width: 150px;
+  height: 350px;
+  border: 5px solid black;
+}
+
+#p0{
+  text-align: center;
+  border-top: 5px solid black;
+
+}
+#d_post{
+  margin: 3%;
+ margin-left: 24%;
+  display: grid;
+  row-gap: 40px;
+  column-gap: 40px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
