@@ -1,0 +1,43 @@
+
+.gr{
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    
+    margin: auto;
+    font-family: arial
+  }
+  
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+
+  header{
+    height: 400px;
+    width: 100%;
+    background-image: url(https://lh3.googleusercontent.com/proxy/m1DHDiWvyk4cAFykIMdcZ0IN_CowRfTj7aY5g62Rafl_UgT9CUpkMlKHtNIwbB0b_KrVZeEGoNKOh7HvSw4YDhz93uliavhb9QvdMhtsE5egyNdVc6cprs7hTtdYTaf1vNY1gfJTnsQTHex7zrbj_GRB);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: aliceblue;
+  }
+  
+  footer{
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(49, 44, 44);
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+  }
