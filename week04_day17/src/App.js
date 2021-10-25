@@ -2,19 +2,22 @@ import './App.css';
 import Header from './Header';
 import Post from './Post';
 import Footer from './Footer';
+import a from './1.jpg';
+import b from './2.jpg';
+import c from './3.jpg';
 
 let posts = [
   {
     id:"1",
-    url:"https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg"
+    url:a
   },
   {
     id:"2",
-    url:"https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg"
+    url:b
   },
   {
     id:"3",
-    url:"https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg"
+    url:c
   },
 
 ]
