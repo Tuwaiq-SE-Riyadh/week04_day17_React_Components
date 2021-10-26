@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+  /*  */
+  /* background-image: url("https://www.google.com/search?q=background&sxsrf=AOaemvKawl8Ee6EaV6qbyyIOpvQD5I7bjw:1635191533667&tbm=isch&source=iu&ictx=1&fir=2G2gzgfrWcYnjM%252CbKJ3gdlWTtaNoM%252C_%253Bv2hClYlC2HKtzM%252CbKJ3gdlWTtaNoM%252C_%253BOBm9fZ86ShBRTM%252CNQfSToeGcnsTtM%252C_%253Bv88-M_AJ_P6MCM%252CnrS8yXEy4V6zEM%252C_%253BRJiDQf46QER4pM%252CbKJ3gdlWTtaNoM%252C_%253BKRYtCvwPg_B64M%252CUQ7UItca9yWkEM%252C_%253BwJnaPLBsFDC_-M%252CLAIZRd0gOwrSbM%252C_%253BfFi-_vBPlZ2mdM%252C4J1ldUOSjxhIYM%252C_%253Bx2Bv1mheCzbK3M%252CbKJ3gdlWTtaNoM%252C_%253BufazeGhmsSPSyM%252CnrS8yXEy4V6zEM%252C_%253BUoBzqU8Fz3WgWM%252C-VeY3IbOBNTikM%252C_%253BrlZnvivQ0wQwPM%252CbKJ3gdlWTtaNoM%252C_&vet=1&usg=AI4_-kS0fCb-3gUhGlzNeIM_HBSE4l4KmQ&sa=X&ved=2ahUKEwjHuoOUq-bzAhUi5uAKHRj_DsQQ9QF6BAgVEAE#imgrc=OBm9fZ86ShBRTM"); */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.cart{
+  display: flex;
+  column-gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.img{
+  width: 300px;
+  height: 300px;
+}
+p{
+  text-align: center;
+}
+.Post{
+  background-color: #a0a1a3;
+  color: #ececec;
+  font-weight: bold;
+  font-family: fantasy;
+  padding: 10px;
+  margin: 10px;
+}
+button{
+  align-self: center;
+}
+h1.Header{
+  text-align: center;
+}
+.Footer{
+  color: #436169;
+  font-family: fantasy;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 100px;
+}
+button.Footer{
+  margin: auto;
+}
+.Header{
+  color: #598794;
+  font-family: fantasy;
+}
