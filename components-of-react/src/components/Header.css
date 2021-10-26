@@ -1,0 +1,18 @@
+.navBarClass{
+    width: 100%;
+    height: 100px;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between; */
+    background-color: beige;
+    background-image: url("http://wangxiaoqin.net/templets/custom/img/yun.png");
+}
+
+.WelcomeClass{
+    text-align: center;
+    margin-top: 0;
+    background-color: beige;
+    color: #26aae2;
+    font-weight: 600;
+    font-size: 30px;
+}
