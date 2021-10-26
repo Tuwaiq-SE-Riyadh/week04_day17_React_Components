@@ -1,0 +1,12 @@
+.footerClass{
+    display: block;
+    width: 100%;
+    background-color: rgb(37, 36, 35);
+    height: 200px;
+    text-align: center;
+
+}
+button{
+    margin-top: 100px;
+    background-color: aquamarine;
+}

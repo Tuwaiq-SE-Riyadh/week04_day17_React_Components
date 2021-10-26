@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header'
 import Post from './components/Post'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
     <div className="grid-container">
         <Post/>
     </div>
+    <Footer/>
     </>
   );
 }
