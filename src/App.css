@@ -1,0 +1,63 @@
+.page{
+  display: grid;
+  width: 100%;
+}
+
+.imgHead{
+  width: 100%;
+  height: 20rem;
+  margin-bottom: 0rem;
+}
+
+.posts{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  justify-items: center;
+  justify-self: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+}
+
+.headText{
+  margin-top: 0rem;
+  justify-self: center;
+  align-self: center;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  color:darkred;
+}
+
+.carImg{
+  width: 100%;
+  height: 10rem;
+}
+
+.divCard{
+  width: 90%;
+  height: 15rem;
+  margin: 4rem;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+
+ .footer{
+   width: 100%;
+   height: 150%;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+   background-color:firebrick;
+ }
