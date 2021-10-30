@@ -1,39 +1,37 @@
-import react from 'react';
+ import React from 'react';
+
 import './App.css';
-import post from './components/header';
-import header from'./components/footer';
-import footer from './post';
 
-function App() {
+import Header from'./components/Header';
+import Post from './Post';
+import Footer from './Footer';
 
-  const posters=[
-    {img:"https://cutt.ly/HROhVzO", title:"post1"},
-    {img:"https://cutt.ly/xROjf59", title:"post2"},
-    {img:"https://cutt.ly/xROjf59", title:"post2"}
-  ]
+
+function App () {
+  
     
 
   return (
     <div className="App">
-    <header img="https://cutt.ly/CROLN7s" 
-    title="welcome to my blog"/>
-    {posters.map((item)=>
-    <div className="poost" key={Math.random()}>
-    <post  img={item.img} title={item.title}/>
+      
+      
+      
+      <Header  pic={"https://cutt.ly/CROLN7s"}  title={"welcome to my blog"} />
+       <div className="posts">
+        <Post  pic={"https://cutt.ly/HROhVzO"} title={"post1"}/>
+        <Post  pic={"https://cutt.ly/dRX7vsm"} title={"post2"}/>
+        <Post  pic={"https://cutt.ly/xROjf59"} title={"post3"}/>
+       </div>
+      
+
+     <Footer  />
+    
     </div>
   
-    
-        
-    )
-}
-    
-    
-      welcome to my blog
-      <footer  />
-      
+   
       
          
-    </div>
+    
   );
 }
 

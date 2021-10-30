@@ -1,0 +1,14 @@
+.post{
+    /* min-height: 350px; */
+    width: 200px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px #eee;
+    transition: all 0.3s;
+    margin-bottom: 25px;
+    position: relative;
+    overflow: hidden;
+  }
+  

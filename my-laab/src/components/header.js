@@ -1,16 +1,25 @@
-import react from react
-function header(props)
-return(
-    <div className="header">
-        
-        <img src={props.img}/>
-        <div className="title">
-            <h2>{oprops.title}</h2>
+import React from "react";
+import "./Header.css"
+function Header(props){
+
+
+    return( 
+
+       
+    
+        <div className="header"  >
+            <div classNam="h-img">
+            <img src={props.pic} ></img>
             </div>
         
- 
+             <div className="title">
+             <p>{props.title}</p> 
+             </div>
+             
+            
+        </div>
 
-
-    </div>
 )
-export default header;
+}
+
+export default Header;

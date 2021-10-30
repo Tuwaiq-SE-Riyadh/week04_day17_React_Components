@@ -1,18 +1,17 @@
-function post(props){
-const {img,title}=item;
-return(
-    <div className="postt">
-       
-            
-            <img src={item.img}/>
-            <p>{item.title}</p>
-            </div>
+import React from "react";
+import "./post.css";
 
-        )
+function Post ({pic,title}){
+return(
+<div className="post">
+    <div className="fl">
+<img src={pic}/>
+<p>{title}</p>
+</div>
+</div>
+
+)
+
 
 }
-
-
-
-
-export default post;
+export default Post;

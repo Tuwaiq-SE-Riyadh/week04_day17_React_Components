@@ -1,0 +1,10 @@
+.foot{
+background: rgb(206, 199, 199);
+background-size: 200rem;
+padding: 2px;
+width: 900px;
+margin: 100px;
+align-items: center;
+padding: 20px ;
+justify-content: center;
+}
