@@ -5,7 +5,7 @@ function Header(){
 
         <div className="hero-image">
             <div className="hero-text">
-            <h1 style="font-size:50px">Welcome to My Blog</h1>
+            <h1>Welcome to My Blog</h1>
             </div>
         </div>
     );
